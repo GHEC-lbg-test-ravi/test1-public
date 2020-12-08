@@ -1,0 +1,50 @@
+<!--
+ ===========================================================================================
+#
+#   Client:     Lloyds TSB
+#   Project:    generic_file_for_building
+#   File Name:  ds_build.xml
+#   Version:    1.0
+#
+#   Summary:
+#
+#   Change History
+#   Version     Who             Date            Comment
+#   1.0         GJB        26/10/2010           Initial version
+#
+# test merge
+================================================================================================
+-->
+
+<project name="ds_aeh_pr_pr3_d3" default="buildMenu" basedir=".">
+
+<description>
+                        Does nothing...
+</description>
+
+<!-- Build targets in this script may generate debug code, values = on/off. -->
+<property name="debug" value="on"/>
+
+<!--
+ =======================================================
+                     buildAll   : Does nothing...
+ =======================================================
+-->
+<target name="buildAll" description="Build tar file for AEH application">
+    <echo message="The Datastage build script has run..."/>
+</target>
+
+<!--
+ =======================================================
+                     buildMenu  : User Menu
+ =======================================================
+-->
+<target name="buildMenu" description="Menu of build options">
+
+    <echo>
+                  buildAll  Creates tar file containing all the application elements
+    </echo>
+
+</target>
+
+</project>
